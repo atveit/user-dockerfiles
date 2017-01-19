@@ -68,6 +68,11 @@ EXPOSE 6006
 #WORKDIR "/root"
 #CMD ["/bin/bash"]
 
+######
+
+RUN sudo apt-get update -y
+RUN sudo apt-get install aufs-tools cgroupfs-mount cgroup-lite -y
+
 ####################################################################################
 ####################################################################################
 # 2) SETUP JENKINS
