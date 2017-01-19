@@ -70,8 +70,8 @@ EXPOSE 6006
 
 ######
 
-RUN sudo apt-get update -y
-RUN sudo apt-get install aufs-tools cgroupfs-mount cgroup-lite -y
+#RUN sudo apt-get update -y
+#RUN sudo apt-get install aufs-tools cgroupfs-mount cgroup-lite -y
 
 ####################################################################################
 ####################################################################################
